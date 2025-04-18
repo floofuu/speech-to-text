@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'Caviar Dreams';
+    src: url('../assets/fonts/caviardreams-webfont.woff2') format('woff2'),
+         url('..assets/fonts/caviardreams-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal; 
+}
+
+@font-face{
+    font-family: 'Caviar Dreams';
+    src: url('../assets/fonts/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/caviar_dreams_bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Caviar Dreams';
+    src: url('../assets/fonts/caviardreams_italic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/caviardreams_italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Caviar Dreams';
+    text-align: center;
+    font-size: 100px;
+}
+
+h2{
+    font-family: 'Caviar Dreams';
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.static{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
